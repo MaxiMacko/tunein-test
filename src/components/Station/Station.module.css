@@ -1,0 +1,51 @@
+.root {
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px 0 0 12px;
+    width: 400px;
+}
+
+.root:hover {
+    box-shadow: 10px 5px 5px black;
+    cursor: pointer;
+}
+
+.root + .root {
+    margin-top: 12px;
+}
+
+.name {
+    text-align: center;
+}
+
+.tags {
+    display: flex;
+}
+
+.rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ratingTitle {
+    font-size: 18px;
+}
+
+.stars {
+    margin-left: 20px;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    margin-left: 5px;
+}

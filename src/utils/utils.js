@@ -1,0 +1,1 @@
+export const stationsEndpoint = 'https://s3-us-west-1.amazonaws.com/cdn-web.tunein.com/stations.json'
